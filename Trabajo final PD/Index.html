@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <title>Trabajo Final Potrero Digital</title>
+</head>
+
+<body>
+
+  <header>
+    <img class="Logo" src="assets/logo_x_pd-removebg-preview (2).png" alt="Logo">
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="Index.html#descripcion">Inicio</a></li>
+        <li><a href="Index.html#nosotros">Nosotros</a></li>
+        <li><a href="Index.html#pacientes">Nuestros Pacientes</a></li>
+        <li><a href="Index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <section class="Hero_image">
+    <img class="Hero_image" src="assets/hero image 1 (3).png" alt="perro y gato">
+  </section>
+  <!--Aqui se coloca una descripcion del tipo de tratamiento que se realiza con esta especialidad, ademas contiene un boton para acceder a turnos-->
+  <section id="descripcion" class="descripcion_y_turnos">
+    <p class="descripcion">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Nam esse rem impedit omnis rerum quae?<br>
+      Eos minima quia debitis porro in nemo iure, beatae,
+      commodi officia, cupiditate temporibus ullam placeat!<br>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Nam esse rem impedit omnis rerum quae?<br>
+      Eos minima quia debitis porro in nemo iure, beatae,
+      commodi officia, cupiditate temporibus ullam placeat!
+    </p>
+
+    <a href="#" class="turnos">Turnos</a>
+  </section>
+  <!--Informacion acerca de los profesionales actuantes-->
+  <section id="nosotros" class="Nosotros">
+    <h2>Nosotros</h2>
+    <!--Flip card con datos del profesional al darse vuelta-->
+    <!--modelo obtenido de www.w3schools.com-->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/1.2.png" alt="Profesional_1">
+        </div>
+        <div class="flip-card-back">
+          <img src="assets/2.2.png" alt="Presentaci&oacute;n Profesional">
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="assets/4.2.png" alt="Profesional_2">
+        </div>
+        <div class="flip-card-back">
+          <img src="assets/3.2.png" alt="Presentaci&oacute;n Profesional">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pacientes" class="Nuestros_pacientes">
+    <div class="texto_y_boton">
+      <h2>Nuestros Pacientes</h2>
+      <!--fotos de pacientes con opcion a linkear hacias sus historias, boton de "conoce sus historias"-->
+      <a href="#" class="nuestros_pacientes">Conoc&eacute; sus historias</a>
+    </div>
+
+
+    <figure><img src="Assets/gato pd.jpg" alt="gato">
+      <figcaption>Silvestre</figcaption>
+    </figure>
+
+    <figure><img src="Assets/perro pd.jpg" alt="perro1">
+      <figcaption>Beto</figcaption>
+    </figure>
+
+    <figure><img src="Assets/perro2 pd.jpg" alt="perro2">
+      <figcaption>Rocco</figcaption>
+    </figure>
+
+  </section>
+
+  <section id="contacto" class="Contacto_y_mapa">
+    <!--links a redes-->
+    <div class="contacto">
+      <h2>Contacto</h2>
+      <div class="iconos">
+        <a href="http://www.facebook.com" target="_blank" rel="noopener"><img src="Assets/icons8-facebook-50.png"
+            alt="link a Facebook"></a>
+        <a href="http://www.Whatsapp.com" target="_blank" rel="noopener"><img src="Assets/icons8-whatsapp-50.png"
+            alt="Link a Wathsapp"></a>
+        <a href="http://www.Instagram.com" target="_blank" rel="noopener"><img src="Assets/icons8-instagram-50.png"
+            alt="Link a Instagram"></a>
+      </div>
+
+    </div>
+    <div class="como_llegar">
+      <h2 class="mapa">C&oacute;mo Llegar</h2>
+      <p>Calle "Nombre 000"</p>
+      <!--mapa con link a direccion-->
+      <iframe title="Mapa del lugar"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100584.56676749258!2d-57.68293459923564!3d-38.01753789932046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1688312287583!5m2!1ses!2sar"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  </section>
+  <footer>
+    <p class="footer"> Angie Caprarulo Para Potrero Digital &#169; Junio 2023 </p>
+  </footer>
+
+</body>
+
+</html>
