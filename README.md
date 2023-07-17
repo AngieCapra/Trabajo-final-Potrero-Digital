@@ -25,7 +25,8 @@ También pueden conectarse via redes sociales y obtener información precisa de 
 
 ## Instalación
 Clona en tu dispositivo local:<br>
-https://github.com/AngieCapra/final-potrero-digital/tree/main
+https://github.com/AngieCapra/Trabajo-final-Potrero-Digital/tree/main
+
 
 
 
