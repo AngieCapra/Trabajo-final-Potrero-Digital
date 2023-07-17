@@ -2,8 +2,7 @@
 
 Pagina Web para profesionales de la Salud, en este ejemplo, Veterinaria.
 
-![Imagen de proyecto](https://github.com/AngieCapra/final-potrero-digital/blob/main/hero%20image%201%20(1).png?raw=true)
-
+![Imagen de proyecto](https://github.com/AngieCapra/Trabajo-final-Potrero-Digital/blob/main/Trabajo%20final%20PD/Assets/hero%20image%201%20(3).png)
 ## Tabla de contenidos
 
 - [Descripción](#descripción)
